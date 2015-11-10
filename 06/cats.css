@@ -1,0 +1,20 @@
+h1 {
+  font-size: 48px;
+}
+
+ul li {
+font-size: 18px;
+color: red;
+}
+
+div#list_container {
+	cursor: pointer;
+}
+
+div#list_container > ul {
+	display: block;
+}
+
+div#list_container.hide_list > ul {
+	display: none;
+}
